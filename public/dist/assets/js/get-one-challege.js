@@ -1,5 +1,5 @@
 // const getOneChallengePort = 'http://localhost:3000';
-const getOneChallengePort = 'https://wildbody.shop';
+const getOneChallengePort = 'https://wildbody-server.shop';
 
 const urlParams = new URLSearchParams(window.location.search);
 const challengeId = urlParams.get('id');

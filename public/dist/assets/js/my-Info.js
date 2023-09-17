@@ -1,5 +1,5 @@
 // const myInfoPort = 'http://localhost:3000';
-const myInfoPort = 'https://wildbody.shop';
+const myInfoPort = 'https://wildbody-server.shop';
 
 // 로그인 여부 확인
 const accessToken = localStorage.getItem('cookie');

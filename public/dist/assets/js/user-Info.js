@@ -1,5 +1,5 @@
 // const userInfoPort = 'http://localhost:3000';
-const userInfoPort = 'https://wildbody.shop';
+const userInfoPort = 'https://wildbody-server.shop';
 
 const userInfoParams = new URLSearchParams(window.location.search);
 const userId = userInfoParams.get('id');

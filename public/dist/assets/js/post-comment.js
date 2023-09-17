@@ -1,5 +1,5 @@
 // const postCommentPort = 'http://localhost:3000';
-const postCommentPort = 'https://wildbody.shop';
+const postCommentPort = 'https://wildbody-server.shop';
 
 const commentParams = new URLSearchParams(window.location.search);
 const challengeIdForComment = commentParams.get('cid');

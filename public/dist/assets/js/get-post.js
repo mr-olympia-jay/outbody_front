@@ -1,5 +1,5 @@
 // const getPostPort = 'http://localhost:3000';
-const getPostPort = 'https://wildbody.shop';
+const getPostPort = 'https://wildbody-server.shop';
 
 const postParams = new URLSearchParams(window.location.search);
 const challengeId = postParams.get('id');

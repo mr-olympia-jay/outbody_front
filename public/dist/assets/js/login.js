@@ -1,5 +1,5 @@
 // const loginPort = 'http://localhost:3000';
-const loginPort = 'https://wildbody.shop';
+const loginPort = 'https://wildbody-server.shop';
 
 $(document).ready(function () {
   $('.btn-show-pass').on('click', function (event) {

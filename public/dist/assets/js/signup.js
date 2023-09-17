@@ -1,5 +1,5 @@
 // const signupPort = 'http://localhost:3000';
-const signupPort = 'https://wildbody.shop';
+const signupPort = 'https://wildbody-server.shop';
 
 // 인증번호 발송 (재용)
 $('#sendEmail').click(() => {

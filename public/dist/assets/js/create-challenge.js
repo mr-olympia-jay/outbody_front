@@ -1,5 +1,5 @@
 // const createChallengePort = 'http://localhost:3000';
-const createChallengePort = 'https://wildbody.shop';
+const createChallengePort = 'https://wildbody-server.shop';
 
 const createChallengeToken = localStorage.getItem('cookie');
 

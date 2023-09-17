@@ -1,5 +1,5 @@
 // const adminPort = 'http://localhost:3000';
-const adminPort = 'https://wildbody.shop';
+const adminPort = 'https://wildbody-server.shop';
 
 const adminToken = localStorage.getItem('cookie');
 if (!adminToken) {

@@ -1,5 +1,5 @@
 // const mainPort = 'http://localhost:3000';
-const mainPort = 'https://wildbody.shop';
+const mainPort = 'https://wildbody-server.shop';
 
 const mainToken = localStorage.getItem('cookie');
 const expiration = localStorage.getItem('tokenExpiration');
@@ -118,15 +118,12 @@ async function initializeChart() {
 
 async function getBodyResults() {
   try {
-    const { data } = await axios.get(
-      `${mainPort}/record/result/detail`,
-      {
-        headers: {
-          Authorization: mainToken,
-        },
-        withCredentials: true,
+    const { data } = await axios.get(`${mainPort}/record/result/detail`, {
+      headers: {
+        Authorization: mainToken,
       },
-    );
+      withCredentials: true,
+    });
 
     const avgDatas = data.data.avgDatas;
     const stdWeight = data.data.stdWeight;

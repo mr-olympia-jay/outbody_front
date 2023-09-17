@@ -1,5 +1,5 @@
 // const noticePort = 'http://localhost:3000';
-const noticePort = 'https://wildbody.shop';
+const noticePort = 'https://wildbody-server.shop';
 
 $(document).ready(function () {
   initMessagesBox();

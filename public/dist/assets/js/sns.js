@@ -1,5 +1,5 @@
 // const snsPort = 'http://localhost:3000';
-const snsPort = 'https://wildbody.shop';
+const snsPort = 'https://wildbody-server.shop';
 
 const accessToken = localStorage.getItem('cookie');
 const expiration = localStorage.getItem('tokenExpiration');
